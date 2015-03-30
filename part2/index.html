@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project 2</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    
+    <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    
+    <script src="js/modernizr.js"></script>
+    
+</head>
+<body class="loading">
+
+    <div id="main" role="main">
+        <section class="slider">
+            <div class="flexslider">
+                <ul class="slides">
+            <li>
+  	    	    <img src="img/adventure.jpg" alt="adventure">
+  	    	</li>
+            <li>
+  	    	    <img src="img/decide.jpg" alt="decide">
+  	    	</li>
+  	    	<li>
+  	    	    <img src="img/doubts.jpg" alt="doubts">
+  	    	</li>
+  	    	<li>
+  	    	    <img src="img/flowers.jpg" alt="flowers">
+  	    	</li>
+            <li>
+                <img src="img/failure.jpg" alt="failure">
+            </li>
+            <li>
+                <img src="img/genius.jpg" alt="genius">
+            </li>
+            <li>
+                <img src="img/little.jpg" alt="little">
+            </li>
+            <li>
+                <img src="img/love.jpg" alt="love">
+            </li>
+            <li>
+                <img src="img/minds.jpg" alt="minds">
+            </li>
+            <li>
+                <img src="img/nerve.jpg" alt="nerve">
+            </li>
+            <li>
+                <img src="img/odd.jpg" alt="odd">
+            </li>
+            <li>
+                <img src="img/perfect.jpg" alt="perfect">
+            </li>
+            <li>
+                <img src="img/permission.jpg" alt="permission">
+            </li>
+            <li>
+                <img src="img/pivot.jpg" alt="pivot">
+            </li>
+          </ul>
+            </div>
+        </section>
+    </div>
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+    
+<script src="js/jquery.easing.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+    
+</body>
+</html>
