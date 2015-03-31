@@ -5,6 +5,11 @@ box-sizing: border-box;
 background: #8F87BF; 
 }
 
+.heading {
+padding: 15px;
+}
+
+
 h1{
 font-family: 'Oswald', sans-serif;
 font-size: 70px;
@@ -20,6 +25,7 @@ font-size: 45px;
 text-align: center;
 margin: 0;
 }
+
 
 
 
